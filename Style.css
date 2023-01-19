@@ -1,0 +1,157 @@
+    .attribution { 
+        font-size: 11px; text-align: center; 
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+
+    /* CSS Reset */
+
+html {
+height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* End of CSS reset */
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+    background-color: hsl(204, 43%, 93%);
+}
+
+article {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+    /* Box 1 styles */
+.Box-1 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1.6rem;
+    padding-bottom: 2rem;
+}
+
+ .Community {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+ }
+
+ .day {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+ }
+
+ .access {
+    color: hsl(218, 22%, 67%);
+    font-weight: 400;
+    line-height: 1.5rem;
+ }
+
+  /* End of Box 1 styles */
+  /* Box 2 styles */
+.Box-2 {
+    background-color: hsl(179, 62%, 43%);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1.6rem;
+    padding-bottom: 2rem;
+    color: white;
+}
+
+.Price-box {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.per {
+    color: hsl(204, 43%, 93%);
+}
+
+.Price {
+    font-size: 1.7rem;
+}
+
+.Full {
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    color: white;
+    border-radius: 6px;
+    border-color: hsl(71, 73%, 54%);
+    width: 90%;
+}
+    /* End Box 2 styles */
+    /* Box 3 Styles */
+.Box-3 {
+    background-color: Hsl(192, 81%, 67%);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1.6rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+ }
+
+ .WHY {
+    color: white;
+ }
+
+ .Text {
+    color: hsl(204, 43%, 93%);
+ }
+    /* End Box 3 styles */
+
+@media (min-width: 1040px) {
+    article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Box-1 {
+        grid-column: 1 / span 2;
+        
+    }
+
+    .Box-2 {
+
+    }
+
+}
+
